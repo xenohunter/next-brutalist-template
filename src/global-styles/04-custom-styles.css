@@ -1,0 +1,17 @@
+blockquote {
+  border-left: var(--border-thickness) solid var(--text-color);
+  margin: 0;
+  margin-left: var(--border-thickness / 2);
+  padding-left: calc(2ch);
+}
+
+code {
+  background-color: #f8f8f8;
+  padding: 5px;
+  border-radius: 3px;
+  color: #333;
+}
+
+li {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,12 @@
+/* See TAG::BODY in @/global-styles/02-global.css */
+
+.defaultLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: calc(100vh - var(--line-height) * 3);
+}
+
+.mainContainer {
+  flex-grow: 1;
+}

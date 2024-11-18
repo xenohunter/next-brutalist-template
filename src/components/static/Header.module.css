@@ -1,0 +1,27 @@
+/* See TAG::TABLE_CELLS in @/global-styles/02-global.css */
+
+.noPadding {
+  padding: 0;
+}
+
+table tbody tr:first-child > *.noPadding {
+  padding-top: 0;
+}
+
+.cellButton {
+  padding: calc((var(--line-height) / 2)) calc(1ch - var(--border-thickness) / 2)
+    calc((var(--line-height) / 2) - (var(--border-thickness)));
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cellButton:hover {
+  text-decoration-thickness: var(--border-thickness);
+  background-color: var(--highlight-color);
+}
+
+.columnMenu {
+  min-width: 120px;
+}
